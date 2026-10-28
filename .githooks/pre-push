@@ -3,6 +3,17 @@
 # The term list lives outside this public repo so the terms themselves are never published.
 # Enable with: git config core.hooksPath .githooks
 
+# The public mirror (<name>-public) is never pushed from this repository. Publish with
+# git-branch-flow-operator/scripts/publish_public.py, which pushes a checked export from a
+# clean copy.
+# Set the public remote name with: git config publish.remote <name> (default: public)
+remote_name=$1
+public_remote=$(git config --get publish.remote || echo public)
+if [ "$remote_name" = "$public_remote" ]; then
+  echo "pre-push: do not push to $public_remote from the development repository; use publish_public.py." >&2
+  exit 1
+fi
+
 DENYLIST="${PUBLIC_SKILL_DENYLIST:-$HOME/agent-skills/config/public-skill-denylist.txt}"
 
 if [ ! -f "$DENYLIST" ]; then

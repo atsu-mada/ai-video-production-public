@@ -6,6 +6,8 @@
 - Environment: [<environment asset>](<path>)
 - Object: [<object asset>](<path>)
 
+Reference use: the attached sheets set only identity, shape, and place. Never copy their backgrounds, zones, swatches, maps, or text into the image.
+
 ## Image prompt
 
 Composition: <subject placement, direction and scale>

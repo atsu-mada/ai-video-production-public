@@ -22,7 +22,7 @@ AI 映画・MV の「生成前」の工程を組み立てて検証するエー�
 ### Claude Code（プラグイン）
 
 ```
-/plugin marketplace add atsu-mada/ai-video-production
+/plugin marketplace add atsu-mada/ai-video-production-public
 /plugin install ai-video-production@atsu-mada-ai-video-production
 ```
 
@@ -31,7 +31,7 @@ AI 映画・MV の「生成前」の工程を組み立てて検証するエー�
 ### Claude Code（手動）
 
 ```bash
-git clone https://github.com/atsu-mada/ai-video-production.git ~/.claude/skills/ai-video-production
+git clone https://github.com/atsu-mada/ai-video-production-public.git ~/.claude/skills/ai-video-production
 ```
 
 `/ai-video-production` で呼び出せます。
@@ -39,7 +39,7 @@ git clone https://github.com/atsu-mada/ai-video-production.git ~/.claude/skills/
 ### Codex
 
 ```bash
-git clone https://github.com/atsu-mada/ai-video-production.git ~/.codex/skills/ai-video-production
+git clone https://github.com/atsu-mada/ai-video-production-public.git ~/.codex/skills/ai-video-production
 ```
 
 `$ai-video-production` で呼び出せます。
@@ -58,8 +58,8 @@ python3 scripts/validate_ai_video.py package path/to/project
 
 ## 関連スキル
 
-- [previz-maker](https://github.com/atsu-mada/previz-maker) — カメラと動線のブロックプレビズと参照プロンプト
-- [seedance-studio](https://github.com/atsu-mada/seedance-studio) — Seedance 2.5 のプロンプト作成（Emily2040/seedance-2.0 の改変フォーク）
+- [previz-maker](https://github.com/atsu-mada/previz-maker-public) — カメラと動線のブロックプレビズと参照プロンプト
+- [seedance-studio](https://github.com/atsu-mada/seedance-studio-public) — Seedance 2.5 のプロンプト作成（Emily2040/seedance-2.0 の改変フォーク）
 
 ## 制限
 

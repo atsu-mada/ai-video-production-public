@@ -6,7 +6,7 @@ Asset type: cinematic live-action location identity board / production set bible
 
 Create one High rendering quality 3:2 landscape board for the exact same empty `<location>` in every view.
 
-LOCK: `<floor plan, openings, landmark positions, scale, palette, materials, lighting logic>`.
+LOCK: `<floor plan, openings, landmark positions, scale, palette, materials, lighting logic>`. COUNT LOCK: `<exact number of each repeated landmark: lamps, columns, windows, trees>`. The same weather, time of day and light direction in every view except the lighting-state studies.
 
 LOCATION ID BLOCK — render only the specified English text:
 NAME: `<NAME>`

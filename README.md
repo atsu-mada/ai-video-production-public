@@ -22,7 +22,7 @@ Author: atsu_mada (ATSUFUMI KASHIMA) / GitHub [@atsu-mada](https://github.com/at
 ### Claude Code (plugin)
 
 ```
-/plugin marketplace add atsu-mada/ai-video-production
+/plugin marketplace add atsu-mada/ai-video-production-public
 /plugin install ai-video-production@atsu-mada-ai-video-production
 ```
 
@@ -31,7 +31,7 @@ Invoke with `/ai-video-production:ai-video-production`.
 ### Claude Code (manual)
 
 ```bash
-git clone https://github.com/atsu-mada/ai-video-production.git ~/.claude/skills/ai-video-production
+git clone https://github.com/atsu-mada/ai-video-production-public.git ~/.claude/skills/ai-video-production
 ```
 
 Invoke with `/ai-video-production`.
@@ -39,7 +39,7 @@ Invoke with `/ai-video-production`.
 ### Codex
 
 ```bash
-git clone https://github.com/atsu-mada/ai-video-production.git ~/.codex/skills/ai-video-production
+git clone https://github.com/atsu-mada/ai-video-production-public.git ~/.codex/skills/ai-video-production
 ```
 
 Invoke with `$ai-video-production`.
@@ -58,8 +58,8 @@ python3 scripts/validate_ai_video.py package path/to/project
 
 ## Related skills
 
-- [previz-maker](https://github.com/atsu-mada/previz-maker) — block previz for camera and blocking, plus a reference prompt
-- [seedance-studio](https://github.com/atsu-mada/seedance-studio) — Seedance 2.5 prompt authoring (a modified fork of Emily2040/seedance-2.0)
+- [previz-maker](https://github.com/atsu-mada/previz-maker-public) — block previz for camera and blocking, plus a reference prompt
+- [seedance-studio](https://github.com/atsu-mada/seedance-studio-public) — Seedance 2.5 prompt authoring (a modified fork of Emily2040/seedance-2.0)
 
 ## Limitations
 

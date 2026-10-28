@@ -12,9 +12,11 @@
 
 ```text
 Duration: <seconds> seconds
+Reference use: the attached sheets set only identity, shape, and place; never show their backgrounds, zones, swatches, maps, layout, or text.
 Visual action: <one visible action>
 Shot and lens: <framing and lens>
 Camera: <one camera move or static>
+Audio: <silent | sound effects and voice only>. No background music, score, or song.
 Performance and blocking: restrained, natural, physically continuous.
 Surface orientation: screens and photographs face the acting character; camera observes obliquely or over the shoulder. Mirror reflections preserve the real/reflected spatial axis.
 Style: cinematic live-action, physical material texture, selective depth of field, restrained VFX, subtle film grain.

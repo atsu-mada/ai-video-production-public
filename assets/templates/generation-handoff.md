@@ -8,6 +8,7 @@ Execution skill: <$provider-skill>
 Input references:
 - <role>: [<reference>](<path>)
 Duration: <seconds> seconds
+Audio: <silent | sound effects and voice only; no background music>
 Prompt artifact: [<prompt artifact>](<path>)
 Output contract: <path, format, aspect ratio, and expected state>
 Validation commands: <commands>

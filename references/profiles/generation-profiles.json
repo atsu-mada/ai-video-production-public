@@ -21,6 +21,19 @@
       "suite": "magnific-operator",
       "observed": "2026-09",
       "description": "Seedance 2.5 through the Magnific suite. 24 s is the longest single job observed to succeed (2026-09), not a published cap; 480p and 720p were the observed output resolutions. Verify the live limit and parameters in magnific-operator before execution."
+    },
+    "tapnow-draft": {
+      "max_duration_sec": 10,
+      "durations_sec": [
+        5,
+        10
+      ],
+      "resolutions": [
+        "864x496"
+      ],
+      "suite": "tapnow-operator",
+      "observed": "2026-10",
+      "description": "TapNow through its MCP connector. Jobs are 5 or 10 seconds with at most one reference image and no model choice; join longer pieces locally. 864x496 at 24 fps was the observed output of the draft tier (2026-10); the fast and quality tiers are not yet observed. Verify the live limits in tapnow-operator before execution."
     }
   }
 }
